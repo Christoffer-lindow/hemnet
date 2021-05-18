@@ -32,6 +32,7 @@ export default {
       },
       handleTableClicked(property) {
           this.property = property
+          console.log(property)
           this.setActive("property_description")
       },
       handleSidebarClicked(component) {
